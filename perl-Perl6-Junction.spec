@@ -1,7 +1,7 @@
 %define module  Perl6-Junction
 %define name    perl-%{module}
 %define version 1.30000
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name:           %{name}
 Version:        %{version}
@@ -15,13 +15,11 @@ BuildArch:      noarch
 Buildroot:      %{_tmppath}/%{name}-%{version}
 
 %description
-Data::FormValidator's main aim is to make input validation expressible in a
-simple format. Data::FormValidator lets you define profiles which declare the
-required and optional fields and any constraints they might have.
+This is a lightweight module which provides 'Junction' operators, the most
+commonly used being any and all.
 
-The results are provided as an object which makes it easy to handle missing and
-invalid results, return error messages about which constraints failed, or
-process the resulting valid data.
+Inspired by the Perl6 design docs,
+http://dev.perl.org/perl6/doc/design/exe/E06.html.
 
 %prep
 %setup -q -n %{module}-%{version}
@@ -45,4 +43,3 @@ process the resulting valid data.
 
 %clean
 rm -rf %{buildroot}
-
