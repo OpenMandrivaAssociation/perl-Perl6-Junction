@@ -12,7 +12,6 @@ Group:          Development/Perl
 URL:            http://search.cpan.org/dist/%{module}
 Source:         http://www.cpan.org/modules/by-module/Data/%{module}-%{version}.tar.gz
 BuildArch:      noarch
-Buildroot:      %{_tmppath}/%{name}-%{version}
 
 %description
 This is a lightweight module which provides 'Junction' operators, the most
