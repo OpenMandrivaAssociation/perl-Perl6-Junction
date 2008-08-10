@@ -1,7 +1,7 @@
 %define module  Perl6-Junction
 %define name    perl-%{module}
-%define version 1.30000
-%define release %mkrel 5
+%define version 1.40000
+%define release %mkrel 1
 
 Name:           %{name}
 Version:        %{version}
@@ -10,7 +10,7 @@ Summary:        Perl6 style Junction operators in Perl5
 License:        Artistic/GPL
 Group:          Development/Perl
 URL:            http://search.cpan.org/dist/%{module}
-Source:         http://www.cpan.org/modules/by-module/Data/%{module}-%{version}.tar.gz
+Source:         http://www.cpan.org/modules/by-module/Perl6/%{module}-%{version}.tar.gz
 BuildArch:      noarch
 Buildroot:      %{_tmppath}/%{name}-%{version}
 
