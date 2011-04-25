@@ -1,7 +1,7 @@
 %define module  Perl6-Junction
 %define name    perl-%{module}
 %define version 1.40000
-%define release %mkrel 2
+%define release %mkrel 3
 
 Name:           %{name}
 Version:        %{version}
