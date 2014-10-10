@@ -2,7 +2,7 @@
 
 Name:		perl-%{module}
 Version:	1.40000
-Release:	4
+Release:	5
 Summary:	Perl6 style Junction operators in Perl5
 License:	Artistic/GPL
 Group:		Development/Perl
