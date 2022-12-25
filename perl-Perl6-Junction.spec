@@ -1,8 +1,8 @@
 %define module  Perl6-Junction
 
 Name:		perl-%{module}
-Version:	1.40000
-Release:	6
+Version:	1.60000
+Release:	1
 Summary:	Perl6 style Junction operators in Perl5
 License:	Artistic/GPL
 Group:		Development/Perl
