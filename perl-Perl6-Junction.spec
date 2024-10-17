@@ -6,7 +6,7 @@ Release:	1
 Summary:	Perl6 style Junction operators in Perl5
 License:	Artistic/GPL
 Group:		Development/Perl
-URL:		http://search.cpan.org/dist/%{module}
+URL:		https://search.cpan.org/dist/%{module}
 Source:		http://www.cpan.org/modules/by-module/Perl6/%{module}-%{version}.tar.gz
 
 BuildRequires:	perl-devel
